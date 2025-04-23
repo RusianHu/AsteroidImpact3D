@@ -1,0 +1,31 @@
+{
+  "name": "asteroidimpact3d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/stats.js": "^0.17.3",
+    "@types/three": "^0.175.0",
+    "cannon-es": "^0.20.0",
+    "element-plus": "^2.9.8",
+    "gsap": "^3.12.7",
+    "stats.js": "^0.17.0",
+    "three": "^0.176.0",
+    "three-gltf-loader": "^1.111.0",
+    "three-orbit-controls": "^82.1.0",
+    "three-orbitcontrols": "^2.110.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1",
+    "vue-tsc": "^2.2.8"
+  }
+}
