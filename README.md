@@ -4,13 +4,17 @@
 
 这是一个基于Vue.js 3 + Vite的3D动画网站，模拟了约6600万年前希克苏鲁伯陨石撞击地球的场景。该撞击被认为是导致恐龙灭绝的主要原因之一。
 
-本项目使用Three.js进行3D渲染，Cannon.js进行物理模拟，Element Plus提供UI组件，展示了陨石撞击地球的整个过程，包括大气层效果、碰撞物理效果和爆炸效果。
+本项目使用Three.js进行3D渲染，Cannon.js进行物理模拟，Element Plus提供UI组件，展示了陨石撞击地球的整个过程，包括碰撞物理效果和爆炸效果。
+
+![84d7c77f86dd0b37e9f6b8a3bd3f3dff_a8fd0361gy1i0ra6yl7zlj20td0irdk6](https://github.com/user-attachments/assets/ee9cf29f-8bd5-46a8-b3d8-d14f5b5d39e3)
+
+![6cd9a517800ba158089b4f1e1a3fd731_a8fd0361gy1i0ra81xl9lj21gk0u013c](https://github.com/user-attachments/assets/cd0b26fc-6969-43c6-832f-0f275add26e9)
+
 
 ## 功能特点
 
 - **地球3D模型**：逼真的地球模型，包含纹理和自转效果
 - **陨石模型**：随机变形的陨石模型，带有尾迹效果
-- **大气层效果**：半透明的大气层效果
 - **碰撞物理效果**：基于物理引擎的碰撞模拟
 - **爆炸效果**：包含爆炸、冲击波和碎片飞散效果
 - **相机控制**：可自由控制视角
